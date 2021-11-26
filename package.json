@@ -11,7 +11,7 @@
     "build": "npx webpack --config ./src/webpack.config.js --mode production",
     "dev": "npx webpack --config ./src/webpack.config.js --mode development --watch",
     "test-std": "npx standard && npx jest",
-    "test": "npm run build && npx jest"
+    "test": "npx jest"
   },
   "author": "githubtraining",
   "license": "MIT",
