@@ -7,9 +7,10 @@ on:
     types: [opened, edited]
   issue_comment:
     types: [created, edited]
-    
+
 jobs:
   giphy-grenerator:
+    name: GIPHY generator job
     runs-on: ubuntu-latest
     steps:
     - name: GIPHY Generator
